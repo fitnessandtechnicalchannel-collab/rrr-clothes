@@ -15,6 +15,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+export async function generateStaticParams() {
+  const staticSlugs = ['new-arrivals', 'trending', 'bestsellers', 'men', 'women'];
+  const [products, categories] = await Promise.all([
+    getProducts(),
+    getCategories(),
+  ]);
+
+  const categorySlugs = categories.map((c) => c.slug);
+  const collectionSlugs = products
+    .map((p) => p.collection)
+    .filter((c): c is string => !!c);
+
+  const allSlugs = Array.from(
+    new Set([...staticSlugs, ...categorySlugs, ...collectionSlugs])
+  );
+
+  return allSlugs.map((slug) => ({ slug }));
+}
+
 export default async function CollectionSlugPage({ params }: Props) {
   const { slug } = await params;
   const [allProducts, categories] = await Promise.all([getProducts(), getCategories()]);
