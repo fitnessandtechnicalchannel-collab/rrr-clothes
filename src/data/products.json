@@ -1,0 +1,1368 @@
+[
+  {
+    "id": 1,
+    "name": "Oversized Graphic Tee - Drop #1",
+    "slug": "oversized-graphic-tee-drop-1",
+    "brand": "RRR",
+    "category": "T-Shirts",
+    "subcategory": "Oversized",
+    "gender": "Unisex",
+    "price": 1499,
+    "discount": 20,
+    "rating": 4.8,
+    "reviewCount": 342,
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Black", "hex": "#111111"},
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Charcoal", "hex": "#333333"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=600&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600&q=80"
+    ],
+    "featured": true, "newArrival": true, "trending": true, "bestSeller": false,
+    "description": "Premium heavyweight oversized graphic tee. 100% organic cotton with a relaxed silhouette perfect for everyday streetwear looks.",
+    "tags": ["oversized", "graphic", "streetwear", "unisex"],
+    "stock": 50,
+    "collection": "streetwear"
+  },
+  {
+    "id": 2,
+    "name": "Premium Linen Shirt",
+    "slug": "premium-linen-shirt",
+    "brand": "RRR",
+    "category": "Shirts",
+    "gender": "Men",
+    "price": 2499,
+    "discount": 15,
+    "rating": 4.7,
+    "reviewCount": 198,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Beige", "hex": "#C8AD8F"},
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Sky Blue", "hex": "#87CEEB"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80",
+      "https://images.unsplash.com/photo-1625910513291-45e9e2f1eecd?w=600&q=80"
+    ],
+    "featured": true, "newArrival": false, "trending": false, "bestSeller": true,
+    "description": "Breathable premium linen shirt for the modern gentleman. Perfect for both casual and semi-formal occasions.",
+    "tags": ["linen", "shirt", "premium", "summer"],
+    "stock": 35,
+    "collection": "premium"
+  },
+  {
+    "id": 3,
+    "name": "High-Waist Cargo Pants",
+    "slug": "high-waist-cargo-pants",
+    "brand": "RRR",
+    "category": "Cargo Pants",
+    "gender": "Women",
+    "price": 2999,
+    "discount": 25,
+    "rating": 4.9,
+    "reviewCount": 567,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {"name": "Olive", "hex": "#6B7C47"},
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Beige", "hex": "#C8AD8F"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80",
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80"
+    ],
+    "featured": true, "newArrival": true, "trending": true, "bestSeller": true,
+    "description": "Trendy high-waist cargo pants with multiple utility pockets. Relaxed fit with tapered legs — the ultimate streetwear essential.",
+    "tags": ["cargo", "high-waist", "streetwear", "women"],
+    "stock": 42,
+    "collection": "streetwear"
+  },
+  {
+    "id": 4,
+    "name": "Classic Denim Jacket",
+    "slug": "classic-denim-jacket",
+    "brand": "RRR",
+    "category": "Jackets",
+    "gender": "Unisex",
+    "price": 3499,
+    "discount": 10,
+    "rating": 4.6,
+    "reviewCount": 289,
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Indigo", "hex": "#4B0082"},
+      {"name": "Light Wash", "hex": "#A8BFDE"},
+      {"name": "Black", "hex": "#111111"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=600&q=80",
+      "https://images.unsplash.com/photo-1608063615781-e2ef8c73d114?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": true, "bestSeller": true,
+    "description": "Iconic denim jacket reborn for the modern era. Versatile layering piece that works season after season.",
+    "tags": ["denim", "jacket", "classic", "unisex"],
+    "stock": 28,
+    "collection": "premium"
+  },
+  {
+    "id": 5,
+    "name": "Floral Wrap Dress",
+    "slug": "floral-wrap-dress",
+    "brand": "RRR",
+    "category": "Dresses",
+    "gender": "Women",
+    "price": 2199,
+    "discount": 30,
+    "rating": 4.8,
+    "reviewCount": 445,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {"name": "Floral Pink", "hex": "#FFB6C1"},
+      {"name": "Floral Blue", "hex": "#B0C4DE"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=80",
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80"
+    ],
+    "featured": true, "newArrival": true, "trending": false, "bestSeller": false,
+    "description": "Flowy wrap dress with a flattering silhouette. Perfect for summer days, brunches, and beach getaways.",
+    "tags": ["dress", "floral", "summer", "women"],
+    "stock": 60,
+    "collection": "summer"
+  },
+  {
+    "id": 6,
+    "name": "Streetwear Hoodie",
+    "slug": "streetwear-hoodie",
+    "brand": "RRR",
+    "category": "Hoodies",
+    "gender": "Unisex",
+    "price": 2799,
+    "discount": 20,
+    "rating": 4.7,
+    "reviewCount": 312,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Grey", "hex": "#888888"},
+      {"name": "Cream", "hex": "#F5F0E8"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=600&q=80",
+      "https://images.unsplash.com/photo-1509942774463-acf339cf87d5?w=600&q=80"
+    ],
+    "featured": true, "newArrival": false, "trending": true, "bestSeller": true,
+    "description": "Premium heavyweight hoodie with a relaxed fit. Brushed fleece interior for ultimate comfort and warmth.",
+    "tags": ["hoodie", "streetwear", "unisex", "winter"],
+    "stock": 80,
+    "collection": "streetwear"
+  },
+  {
+    "id": 7,
+    "name": "Slim Fit Chinos",
+    "slug": "slim-fit-chinos",
+    "brand": "RRR",
+    "category": "Jeans",
+    "gender": "Men",
+    "price": 1999,
+    "discount": 15,
+    "rating": 4.5,
+    "reviewCount": 178,
+    "sizes": ["28", "30", "32", "34", "36"],
+    "colors": [
+      {"name": "Khaki", "hex": "#C3A882"},
+      {"name": "Navy", "hex": "#001F5B"},
+      {"name": "Olive", "hex": "#6B7C47"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80",
+      "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": false, "bestSeller": true,
+    "description": "Modern slim fit chinos with a slight stretch for all-day comfort. Versatile enough for the office or weekend outings.",
+    "tags": ["chinos", "slim", "men", "casual"],
+    "stock": 45,
+    "collection": "premium"
+  },
+  {
+    "id": 8,
+    "name": "Jogger Sweatpants",
+    "slug": "jogger-sweatpants",
+    "brand": "RRR",
+    "category": "Joggers",
+    "gender": "Unisex",
+    "price": 1799,
+    "discount": 20,
+    "rating": 4.6,
+    "reviewCount": 223,
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Grey Melange", "hex": "#BBBBBB"},
+      {"name": "Navy", "hex": "#001F5B"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=600&q=80",
+      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=600&q=80"
+    ],
+    "featured": false, "newArrival": true, "trending": false, "bestSeller": false,
+    "description": "Ultra-soft joggers with tapered leg and drawstring waist. Perfect for workouts, lounging, or everyday casual wear.",
+    "tags": ["jogger", "sweatpants", "comfort", "unisex"],
+    "stock": 95,
+    "collection": "athleisure"
+  },
+  {
+    "id": 9,
+    "name": "Crop Top Essential",
+    "slug": "crop-top-essential",
+    "brand": "RRR",
+    "category": "T-Shirts",
+    "subcategory": "Crop Tops",
+    "gender": "Women",
+    "price": 899,
+    "discount": 10,
+    "rating": 4.7,
+    "reviewCount": 534,
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": [
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Lavender", "hex": "#E6E6FA"},
+      {"name": "Coral", "hex": "#FF7F7F"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&q=80",
+      "https://images.unsplash.com/photo-1485518882345-15568b007407?w=600&q=80"
+    ],
+    "featured": false, "newArrival": true, "trending": true, "bestSeller": true,
+    "description": "Minimal crop top in soft cotton blend. A wardrobe staple that pairs effortlessly with high-waist bottoms.",
+    "tags": ["crop", "women", "minimal", "summer"],
+    "stock": 120,
+    "collection": "summer"
+  },
+  {
+    "id": 10,
+    "name": "Printed Polo Tee",
+    "slug": "printed-polo-tee",
+    "brand": "RRR",
+    "category": "T-Shirts",
+    "subcategory": "Polo T-Shirts",
+    "gender": "Men",
+    "price": 1299,
+    "discount": 25,
+    "rating": 4.4,
+    "reviewCount": 156,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Navy", "hex": "#001F5B"},
+      {"name": "Maroon", "hex": "#800000"},
+      {"name": "Forest Green", "hex": "#228B22"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=600&q=80",
+      "https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": false, "bestSeller": false,
+    "description": "Classic polo tee with modern slim-fit silhouette. Ribbed collar, short placket, and premium pique fabric.",
+    "tags": ["polo", "men", "classic", "casual"],
+    "stock": 67,
+    "collection": "premium"
+  },
+  {
+    "id": 11,
+    "name": "Satin Slip Dress",
+    "slug": "satin-slip-dress",
+    "brand": "RRR",
+    "category": "Dresses",
+    "gender": "Women",
+    "price": 2699,
+    "discount": 20,
+    "rating": 4.8,
+    "reviewCount": 389,
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": [
+      {"name": "Gold Champagne", "hex": "#D4AF37"},
+      {"name": "Dusty Rose", "hex": "#DCAE96"},
+      {"name": "Midnight Blue", "hex": "#191970"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=600&q=80",
+      "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=600&q=80"
+    ],
+    "featured": true, "newArrival": false, "trending": true, "bestSeller": false,
+    "description": "Elegant satin slip dress with adjustable straps and a bias-cut silhouette. Effortlessly transitions from day to night.",
+    "tags": ["satin", "dress", "women", "party"],
+    "stock": 38,
+    "collection": "premium"
+  },
+  {
+    "id": 12,
+    "name": "Oversized Zip Hoodie",
+    "slug": "oversized-zip-hoodie",
+    "brand": "RRR",
+    "category": "Hoodies",
+    "gender": "Unisex",
+    "price": 3199,
+    "discount": 15,
+    "rating": 4.9,
+    "reviewCount": 267,
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Ecru", "hex": "#F5F0E8"},
+      {"name": "Stone", "hex": "#928E85"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1509942774463-acf339cf87d5?w=600&q=80",
+      "https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=600&q=80"
+    ],
+    "featured": false, "newArrival": true, "trending": true, "bestSeller": false,
+    "description": "Oversized zip-up hoodie in premium French terry fabric. Full zip front with kangaroo pockets and dropped shoulders.",
+    "tags": ["hoodie", "zip", "oversized", "unisex"],
+    "stock": 55,
+    "collection": "streetwear"
+  },
+  {
+    "id": 13,
+    "name": "Wide Leg Trousers",
+    "slug": "wide-leg-trousers",
+    "brand": "RRR",
+    "category": "Jeans",
+    "gender": "Women",
+    "price": 2399,
+    "discount": 30,
+    "rating": 4.7,
+    "reviewCount": 312,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {"name": "Ecru", "hex": "#F5F0E8"},
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Taupe", "hex": "#8E7D6E"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80",
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": true, "bestSeller": true,
+    "description": "Wide-leg trousers with high rise and fluid drape. A fashion-forward silhouette that commands attention.",
+    "tags": ["wide-leg", "trousers", "women", "premium"],
+    "stock": 40,
+    "collection": "premium"
+  },
+  {
+    "id": 14,
+    "name": "Graphic Sweatshirt",
+    "slug": "graphic-sweatshirt",
+    "brand": "RRR",
+    "category": "Hoodies",
+    "subcategory": "Sweatshirts",
+    "gender": "Unisex",
+    "price": 2099,
+    "discount": 20,
+    "rating": 4.6,
+    "reviewCount": 198,
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Grey", "hex": "#888888"},
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Washed Brown", "hex": "#8B6914"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600&q=80"
+    ],
+    "featured": false, "newArrival": true, "trending": false, "bestSeller": false,
+    "description": "Bold graphic sweatshirt with a vintage-inspired design. Heavyweight fleece for maximum warmth and style.",
+    "tags": ["graphic", "sweatshirt", "unisex", "streetwear"],
+    "stock": 72,
+    "collection": "streetwear"
+  },
+  {
+    "id": 15,
+    "name": "Denim Shorts",
+    "slug": "denim-shorts",
+    "brand": "RRR",
+    "category": "Jeans",
+    "subcategory": "Shorts",
+    "gender": "Women",
+    "price": 1299,
+    "discount": 15,
+    "rating": 4.5,
+    "reviewCount": 423,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {"name": "Light Wash", "hex": "#A8BFDE"},
+      {"name": "Dark Wash", "hex": "#3C5A99"},
+      {"name": "White", "hex": "#FFFFFF"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1604176354204-9268737828e4?w=600&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f43?w=600&q=80"
+    ],
+    "featured": false, "newArrival": true, "trending": true, "bestSeller": false,
+    "description": "Classic denim shorts with a high-rise fit. Raw hem detail and distressed accents for a lived-in feel.",
+    "tags": ["denim", "shorts", "women", "summer"],
+    "stock": 88,
+    "collection": "summer"
+  },
+  {
+    "id": 16,
+    "name": "Bomber Jacket",
+    "slug": "bomber-jacket",
+    "brand": "RRR",
+    "category": "Jackets",
+    "gender": "Men",
+    "price": 4499,
+    "discount": 20,
+    "rating": 4.8,
+    "reviewCount": 234,
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Olive", "hex": "#6B7C47"},
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Navy", "hex": "#001F5B"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
+      "https://images.unsplash.com/photo-1608063615781-e2ef8c73d114?w=600&q=80"
+    ],
+    "featured": true, "newArrival": false, "trending": true, "bestSeller": false,
+    "description": "Premium bomber jacket with ribbed cuffs and collar. Satin lining and multiple pockets for the ultimate streetwear look.",
+    "tags": ["bomber", "jacket", "men", "streetwear"],
+    "stock": 25,
+    "collection": "streetwear"
+  },
+  {
+    "id": 17,
+    "name": "Bralette Top",
+    "slug": "bralette-top",
+    "brand": "RRR",
+    "category": "T-Shirts",
+    "subcategory": "Crop Tops",
+    "gender": "Women",
+    "price": 799,
+    "discount": 10,
+    "rating": 4.6,
+    "reviewCount": 678,
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": [
+      {"name": "Cream", "hex": "#F5F0E8"},
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Blush Pink", "hex": "#FFB6C1"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1485518882345-15568b007407?w=600&q=80",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&q=80"
+    ],
+    "featured": false, "newArrival": true, "trending": true, "bestSeller": true,
+    "description": "Trendy bralette top with delicate strap details and soft jersey fabric. Perfect for layering or wearing solo.",
+    "tags": ["bralette", "crop", "women", "trendy"],
+    "stock": 145,
+    "collection": "summer"
+  },
+  {
+    "id": 18,
+    "name": "Varsity Jacket",
+    "slug": "varsity-jacket",
+    "brand": "RRR",
+    "category": "Jackets",
+    "gender": "Unisex",
+    "price": 3999,
+    "discount": 25,
+    "rating": 4.7,
+    "reviewCount": 189,
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Black/Gold", "hex": "#111111"},
+      {"name": "Maroon/White", "hex": "#800000"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542191904-ff9cfc2f1d37?w=600&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80"
+    ],
+    "featured": true, "newArrival": false, "trending": true, "bestSeller": false,
+    "description": "Collegiate-inspired varsity jacket with contrast sleeves and embroidered chenille lettering. A campus style icon.",
+    "tags": ["varsity", "jacket", "campus", "unisex"],
+    "stock": 30,
+    "collection": "campus"
+  },
+  {
+    "id": 19,
+    "name": "Relaxed Fit Linen Pants",
+    "slug": "relaxed-fit-linen-pants",
+    "brand": "RRR",
+    "category": "Joggers",
+    "gender": "Men",
+    "price": 2199,
+    "discount": 20,
+    "rating": 4.5,
+    "reviewCount": 143,
+    "sizes": ["28", "30", "32", "34", "36"],
+    "colors": [
+      {"name": "Natural", "hex": "#D2B48C"},
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Sage", "hex": "#87AE73"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=600&q=80",
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=600&q=80"
+    ],
+    "featured": false, "newArrival": true, "trending": false, "bestSeller": false,
+    "description": "Relaxed fit linen pants with elasticated waist and side pockets. The perfect summer vacation essential.",
+    "tags": ["linen", "pants", "men", "summer", "vacation"],
+    "stock": 52,
+    "collection": "summer"
+  },
+  {
+    "id": 20,
+    "name": "Co-ord Set - Blazer & Pants",
+    "slug": "coord-set-blazer-pants",
+    "brand": "RRR",
+    "category": "Jackets",
+    "gender": "Women",
+    "price": 5999,
+    "discount": 20,
+    "rating": 4.9,
+    "reviewCount": 412,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {"name": "Beige", "hex": "#C8AD8F"},
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Ivory", "hex": "#FFFFF0"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80",
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80"
+    ],
+    "featured": true, "newArrival": true, "trending": true, "bestSeller": false,
+    "description": "Elevated co-ord set featuring a structured blazer with matching wide-leg pants. Boss energy in every setting.",
+    "tags": ["co-ord", "blazer", "women", "premium", "formal"],
+    "stock": 20,
+    "collection": "premium"
+  },
+  {
+    "id": 21,
+    "name": "Tie-Dye Tee",
+    "slug": "tie-dye-tee",
+    "brand": "RRR",
+    "category": "T-Shirts",
+    "gender": "Unisex",
+    "price": 999,
+    "discount": 10,
+    "rating": 4.3,
+    "reviewCount": 267,
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Blue-Purple", "hex": "#6A0DAD"},
+      {"name": "Pink-Orange", "hex": "#FF6B6B"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600&q=80",
+      "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": false, "bestSeller": false,
+    "description": "Vibrant hand-dyed tie-dye tee in premium cotton. Each piece is unique, making it a truly one-of-a-kind style statement.",
+    "tags": ["tie-dye", "tee", "unisex", "colorful"],
+    "stock": 78,
+    "collection": "summer"
+  },
+  {
+    "id": 22,
+    "name": "Pleated Mini Skirt",
+    "slug": "pleated-mini-skirt",
+    "brand": "RRR",
+    "category": "Jeans",
+    "subcategory": "Skirts",
+    "gender": "Women",
+    "price": 1499,
+    "discount": 20,
+    "rating": 4.7,
+    "reviewCount": 398,
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": [
+      {"name": "Plaid Brown", "hex": "#8B6914"},
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Navy", "hex": "#001F5B"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f43?w=600&q=80",
+      "https://images.unsplash.com/photo-1604176354204-9268737828e4?w=600&q=80"
+    ],
+    "featured": false, "newArrival": true, "trending": true, "bestSeller": true,
+    "description": "Trendy pleated mini skirt with a classic plaid pattern. Pairs perfectly with any crop top or oversized tee.",
+    "tags": ["skirt", "pleated", "women", "trendy"],
+    "stock": 65,
+    "collection": "campus"
+  },
+  {
+    "id": 23,
+    "name": "Muscle Fit Tank Top",
+    "slug": "muscle-fit-tank-top",
+    "brand": "RRR",
+    "category": "T-Shirts",
+    "subcategory": "Tank Tops",
+    "gender": "Men",
+    "price": 799,
+    "discount": 15,
+    "rating": 4.5,
+    "reviewCount": 345,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Black", "hex": "#111111"},
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Grey", "hex": "#888888"},
+      {"name": "Olive", "hex": "#6B7C47"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578768079052-aa76e52ff947?w=600&q=80",
+      "https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": false, "bestSeller": true,
+    "description": "Muscle-fit tank top in buttery-soft jersey. Designed to hug the body and accentuate a fit physique.",
+    "tags": ["tank", "men", "gym", "athletic"],
+    "stock": 110,
+    "collection": "athleisure"
+  },
+  {
+    "id": 24,
+    "name": "Boho Maxi Dress",
+    "slug": "boho-maxi-dress",
+    "brand": "RRR",
+    "category": "Dresses",
+    "gender": "Women",
+    "price": 2999,
+    "discount": 25,
+    "rating": 4.8,
+    "reviewCount": 521,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {"name": "Terracotta", "hex": "#CC6633"},
+      {"name": "Emerald", "hex": "#50C878"},
+      {"name": "Ivory", "hex": "#FFFFF0"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80",
+      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=80"
+    ],
+    "featured": true, "newArrival": false, "trending": true, "bestSeller": false,
+    "description": "Free-spirited boho maxi dress with tiered silhouette and delicate embroidery. Channel vacation mode every day.",
+    "tags": ["boho", "maxi", "women", "vacation"],
+    "stock": 43,
+    "collection": "summer"
+  },
+  {
+    "id": 25,
+    "name": "Cargo Shorts",
+    "slug": "cargo-shorts",
+    "brand": "RRR",
+    "category": "Cargo Pants",
+    "subcategory": "Shorts",
+    "gender": "Men",
+    "price": 1599,
+    "discount": 20,
+    "rating": 4.4,
+    "reviewCount": 267,
+    "sizes": ["28", "30", "32", "34", "36"],
+    "colors": [
+      {"name": "Khaki", "hex": "#C3A882"},
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Olive", "hex": "#6B7C47"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80",
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": false, "bestSeller": false,
+    "description": "Functional cargo shorts with multiple utility pockets. Relaxed fit and durable ripstop fabric.",
+    "tags": ["cargo", "shorts", "men", "utility"],
+    "stock": 68,
+    "collection": "streetwear"
+  },
+  {
+    "id": 26,
+    "name": "Ribbed Knit Sweater",
+    "slug": "ribbed-knit-sweater",
+    "brand": "RRR",
+    "category": "Hoodies",
+    "subcategory": "Sweatshirts",
+    "gender": "Unisex",
+    "price": 2599,
+    "discount": 15,
+    "rating": 4.7,
+    "reviewCount": 234,
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Cream", "hex": "#F5F0E8"},
+      {"name": "Caramel", "hex": "#C68642"},
+      {"name": "Slate Blue", "hex": "#6F8FAF"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&q=80",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": true, "bestSeller": false,
+    "description": "Cozy ribbed knit sweater with a relaxed silhouette. Perfect layering piece for transitional weather.",
+    "tags": ["knit", "sweater", "winter", "unisex"],
+    "stock": 55,
+    "collection": "premium"
+  },
+  {
+    "id": 27,
+    "name": "Active Track Pants",
+    "slug": "active-track-pants",
+    "brand": "RRR",
+    "category": "Joggers",
+    "gender": "Unisex",
+    "price": 1599,
+    "discount": 20,
+    "rating": 4.5,
+    "reviewCount": 312,
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Navy", "hex": "#001F5B"},
+      {"name": "Charcoal", "hex": "#333333"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=600&q=80",
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": false, "bestSeller": true,
+    "description": "Moisture-wicking track pants with side stripe detailing. Engineered for performance and everyday style.",
+    "tags": ["track", "athletic", "unisex", "sport"],
+    "stock": 88,
+    "collection": "athleisure"
+  },
+  {
+    "id": 28,
+    "name": "Leather Crossbody Bag",
+    "slug": "leather-crossbody-bag",
+    "brand": "RRR",
+    "category": "Accessories",
+    "subcategory": "Bags",
+    "gender": "All",
+    "price": 3999,
+    "discount": 15,
+    "rating": 4.8,
+    "reviewCount": 189,
+    "sizes": ["One Size"],
+    "colors": [
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Tan", "hex": "#D2B48C"},
+      {"name": "Cognac", "hex": "#9B5523"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
+      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": true, "bestSeller": false,
+    "description": "Compact leather crossbody bag with gold-tone hardware. Multiple compartments for everyday organization.",
+    "tags": ["bag", "leather", "crossbody", "accessories"],
+    "stock": 32,
+    "collection": "premium"
+  },
+  {
+    "id": 29,
+    "name": "Snapback Cap",
+    "slug": "snapback-cap",
+    "brand": "RRR",
+    "category": "Accessories",
+    "subcategory": "Caps",
+    "gender": "All",
+    "price": 899,
+    "discount": 10,
+    "rating": 4.4,
+    "reviewCount": 456,
+    "sizes": ["One Size"],
+    "colors": [
+      {"name": "Black", "hex": "#111111"},
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Red", "hex": "#FF0000"},
+      {"name": "Gold", "hex": "#D4AF37"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=600&q=80",
+      "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=600&q=80"
+    ],
+    "featured": false, "newArrival": true, "trending": false, "bestSeller": true,
+    "description": "Structured snapback cap with embroidered RRR logo. Adjustable fit and premium 6-panel construction.",
+    "tags": ["cap", "snapback", "accessories", "unisex"],
+    "stock": 145,
+    "collection": "streetwear"
+  },
+  {
+    "id": 30,
+    "name": "Oversized Flannel Shirt",
+    "slug": "oversized-flannel-shirt",
+    "brand": "RRR",
+    "category": "Shirts",
+    "gender": "Unisex",
+    "price": 1999,
+    "discount": 20,
+    "rating": 4.7,
+    "reviewCount": 278,
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Red Plaid", "hex": "#CC0000"},
+      {"name": "Blue Plaid", "hex": "#003087"},
+      {"name": "Green Plaid", "hex": "#228B22"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1625910513291-45e9e2f1eecd?w=600&q=80",
+      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": false, "bestSeller": false,
+    "description": "Classic oversized flannel shirt in soft brushed cotton. Wear it as a shirt or tie it around your waist.",
+    "tags": ["flannel", "shirt", "oversized", "unisex"],
+    "stock": 62,
+    "collection": "streetwear"
+  },
+  {
+    "id": 31,
+    "name": "Y2K Butterfly Top",
+    "slug": "y2k-butterfly-top",
+    "brand": "RRR",
+    "category": "T-Shirts",
+    "gender": "Women",
+    "price": 1099,
+    "discount": 15,
+    "rating": 4.6,
+    "reviewCount": 534,
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": [
+      {"name": "Baby Blue", "hex": "#89CFF0"},
+      {"name": "Lilac", "hex": "#C8A2C8"},
+      {"name": "Pink", "hex": "#FFB6C1"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&q=80",
+      "https://images.unsplash.com/photo-1485518882345-15568b007407?w=600&q=80"
+    ],
+    "featured": false, "newArrival": true, "trending": true, "bestSeller": false,
+    "description": "Nostalgic Y2K-inspired butterfly top with mesh detailing and rhinestone accents. Front-row fashion energy.",
+    "tags": ["y2k", "women", "trendy", "party"],
+    "stock": 87,
+    "collection": "campus"
+  },
+  {
+    "id": 32,
+    "name": "Oxford Button-Down",
+    "slug": "oxford-button-down",
+    "brand": "RRR",
+    "category": "Shirts",
+    "gender": "Men",
+    "price": 1799,
+    "discount": 10,
+    "rating": 4.6,
+    "reviewCount": 189,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Light Blue", "hex": "#ADD8E6"},
+      {"name": "Pink", "hex": "#FFB6C1"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=600&q=80",
+      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": false, "bestSeller": true,
+    "description": "Classic Oxford button-down in 100% cotton. A wardrobe cornerstone for the modern man — dress it up or down.",
+    "tags": ["oxford", "shirt", "men", "classic"],
+    "stock": 75,
+    "collection": "premium"
+  },
+  {
+    "id": 33,
+    "name": "Crochet Beach Cover-Up",
+    "slug": "crochet-beach-cover-up",
+    "brand": "RRR",
+    "category": "Dresses",
+    "gender": "Women",
+    "price": 1899,
+    "discount": 20,
+    "rating": 4.8,
+    "reviewCount": 367,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {"name": "Natural", "hex": "#D2B48C"},
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Black", "hex": "#111111"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=600&q=80",
+      "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=600&q=80"
+    ],
+    "featured": false, "newArrival": true, "trending": true, "bestSeller": false,
+    "description": "Handcrafted crochet beach cover-up with open weave and fringe hem. The essential vacation companion.",
+    "tags": ["crochet", "beach", "women", "summer"],
+    "stock": 48,
+    "collection": "summer"
+  },
+  {
+    "id": 34,
+    "name": "Thermal Full Zip Jacket",
+    "slug": "thermal-full-zip-jacket",
+    "brand": "RRR",
+    "category": "Jackets",
+    "gender": "Men",
+    "price": 3299,
+    "discount": 20,
+    "rating": 4.5,
+    "reviewCount": 156,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Navy", "hex": "#001F5B"},
+      {"name": "Burgundy", "hex": "#800020"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=600&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": false, "bestSeller": false,
+    "description": "Insulated full-zip thermal jacket with fleece lining. Lightweight yet warm — perfect for cooler days.",
+    "tags": ["thermal", "jacket", "men", "winter"],
+    "stock": 40,
+    "collection": "premium"
+  },
+  {
+    "id": 35,
+    "name": "Utility Vest",
+    "slug": "utility-vest",
+    "brand": "RRR",
+    "category": "Jackets",
+    "gender": "Unisex",
+    "price": 2499,
+    "discount": 15,
+    "rating": 4.6,
+    "reviewCount": 198,
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Khaki", "hex": "#C3A882"},
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Sage Green", "hex": "#87AE73"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1608063615781-e2ef8c73d114?w=600&q=80",
+      "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=600&q=80"
+    ],
+    "featured": false, "newArrival": true, "trending": true, "bestSeller": false,
+    "description": "Multi-pocket utility vest with a relaxed silhouette. Layer over hoodies or wear standalone for street-ready looks.",
+    "tags": ["utility", "vest", "unisex", "streetwear"],
+    "stock": 37,
+    "collection": "streetwear"
+  },
+  {
+    "id": 36,
+    "name": "Essential White Tee",
+    "slug": "essential-white-tee",
+    "brand": "RRR",
+    "category": "T-Shirts",
+    "gender": "Unisex",
+    "price": 699,
+    "discount": 0,
+    "rating": 4.8,
+    "reviewCount": 1023,
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Grey", "hex": "#888888"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600&q=80",
+      "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": false, "bestSeller": true,
+    "description": "The perfect essential tee. Heavyweight 220gsm cotton with a classic crew neck and timeless silhouette.",
+    "tags": ["essential", "tee", "unisex", "basic"],
+    "stock": 200,
+    "collection": "minimal"
+  },
+  {
+    "id": 37,
+    "name": "Sports Bra",
+    "slug": "sports-bra",
+    "brand": "RRR",
+    "category": "T-Shirts",
+    "subcategory": "Crop Tops",
+    "gender": "Women",
+    "price": 999,
+    "discount": 10,
+    "rating": 4.7,
+    "reviewCount": 612,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Coral", "hex": "#FF7F7F"},
+      {"name": "Sage", "hex": "#87AE73"},
+      {"name": "Lavender", "hex": "#E6E6FA"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": false, "bestSeller": true,
+    "description": "Medium-support sports bra with moisture-wicking fabric and a flattering racerback design. Studio or street.",
+    "tags": ["sports-bra", "women", "athletic", "gym"],
+    "stock": 130,
+    "collection": "athleisure"
+  },
+  {
+    "id": 38,
+    "name": "Monogram Tote Bag",
+    "slug": "monogram-tote-bag",
+    "brand": "RRR",
+    "category": "Accessories",
+    "subcategory": "Bags",
+    "gender": "All",
+    "price": 2499,
+    "discount": 10,
+    "rating": 4.7,
+    "reviewCount": 234,
+    "sizes": ["One Size"],
+    "colors": [
+      {"name": "Black/Gold", "hex": "#111111"},
+      {"name": "Beige/Gold", "hex": "#C8AD8F"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80",
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80"
+    ],
+    "featured": false, "newArrival": true, "trending": false, "bestSeller": false,
+    "description": "Spacious monogram tote bag with gold logo hardware and interior zip pocket. The everyday luxury bag.",
+    "tags": ["tote", "bag", "accessories", "monogram"],
+    "stock": 55,
+    "collection": "premium"
+  },
+  {
+    "id": 39,
+    "name": "Denim Cargo Jeans",
+    "slug": "denim-cargo-jeans",
+    "brand": "RRR",
+    "category": "Jeans",
+    "gender": "Unisex",
+    "price": 2799,
+    "discount": 20,
+    "rating": 4.6,
+    "reviewCount": 345,
+    "sizes": ["28", "30", "32", "34", "36"],
+    "colors": [
+      {"name": "Dark Indigo", "hex": "#3C5A99"},
+      {"name": "Black", "hex": "#111111"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80",
+      "https://images.unsplash.com/photo-1604176354204-9268737828e4?w=600&q=80"
+    ],
+    "featured": false, "newArrival": true, "trending": true, "bestSeller": false,
+    "description": "Cargo jeans with patch pockets and a relaxed straight leg. The ultimate hybrid of utility and denim heritage.",
+    "tags": ["cargo", "jeans", "denim", "unisex"],
+    "stock": 60,
+    "collection": "streetwear"
+  },
+  {
+    "id": 40,
+    "name": "Straw Hat",
+    "slug": "straw-hat",
+    "brand": "RRR",
+    "category": "Accessories",
+    "subcategory": "Caps",
+    "gender": "All",
+    "price": 1299,
+    "discount": 15,
+    "rating": 4.6,
+    "reviewCount": 289,
+    "sizes": ["One Size"],
+    "colors": [
+      {"name": "Natural", "hex": "#D2B48C"},
+      {"name": "Black Trim", "hex": "#111111"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=600&q=80",
+      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": true, "bestSeller": false,
+    "description": "Classic woven straw hat with wide brim and grosgrain ribbon trim. Your ultimate summer style companion.",
+    "tags": ["hat", "straw", "summer", "accessories"],
+    "stock": 72,
+    "collection": "summer"
+  },
+  {
+    "id": 41,
+    "name": "Puffer Vest",
+    "slug": "puffer-vest",
+    "brand": "RRR",
+    "category": "Jackets",
+    "gender": "Unisex",
+    "price": 2999,
+    "discount": 25,
+    "rating": 4.5,
+    "reviewCount": 167,
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Ivory", "hex": "#FFFFF0"},
+      {"name": "Olive", "hex": "#6B7C47"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
+      "https://images.unsplash.com/photo-1608063615781-e2ef8c73d114?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": false, "bestSeller": false,
+    "description": "Lightweight puffer vest with down-alternative filling. Effortless warmth without the bulk.",
+    "tags": ["puffer", "vest", "winter", "unisex"],
+    "stock": 45,
+    "collection": "premium"
+  },
+  {
+    "id": 42,
+    "name": "Mini Shoulder Bag",
+    "slug": "mini-shoulder-bag",
+    "brand": "RRR",
+    "category": "Accessories",
+    "subcategory": "Bags",
+    "gender": "Women",
+    "price": 1999,
+    "discount": 20,
+    "rating": 4.7,
+    "reviewCount": 312,
+    "sizes": ["One Size"],
+    "colors": [
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Dusty Rose", "hex": "#DCAE96"},
+      {"name": "White", "hex": "#FFFFFF"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
+      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80"
+    ],
+    "featured": false, "newArrival": true, "trending": true, "bestSeller": false,
+    "description": "Compact mini shoulder bag with chain strap and flap closure. Evening glam meets daytime chic.",
+    "tags": ["mini-bag", "shoulder", "women", "accessories"],
+    "stock": 48,
+    "collection": "premium"
+  },
+  {
+    "id": 43,
+    "name": "Relaxed Linen Co-ord",
+    "slug": "relaxed-linen-coord",
+    "brand": "RRR",
+    "category": "Shirts",
+    "gender": "Men",
+    "price": 3999,
+    "discount": 15,
+    "rating": 4.8,
+    "reviewCount": 198,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Ecru", "hex": "#F5F0E8"},
+      {"name": "Sky Blue", "hex": "#87CEEB"},
+      {"name": "Sage", "hex": "#87AE73"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1625910513291-45e9e2f1eecd?w=600&q=80",
+      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80"
+    ],
+    "featured": true, "newArrival": true, "trending": false, "bestSeller": false,
+    "description": "Matching linen shirt and pants co-ord set for men. Breathable, relaxed, and resort-ready.",
+    "tags": ["linen", "co-ord", "men", "summer", "vacation"],
+    "stock": 30,
+    "collection": "summer"
+  },
+  {
+    "id": 44,
+    "name": "Leggings - Ultra High Waist",
+    "slug": "leggings-ultra-high-waist",
+    "brand": "RRR",
+    "category": "Joggers",
+    "gender": "Women",
+    "price": 1499,
+    "discount": 15,
+    "rating": 4.9,
+    "reviewCount": 876,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Navy", "hex": "#001F5B"},
+      {"name": "Burgundy", "hex": "#800020"},
+      {"name": "Olive", "hex": "#6B7C47"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=600&q=80",
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": false, "bestSeller": true,
+    "description": "Sculpting ultra high-waist leggings with 4-way stretch and tummy control. Go from gym to street with ease.",
+    "tags": ["leggings", "women", "gym", "athletic"],
+    "stock": 185,
+    "collection": "athleisure"
+  },
+  {
+    "id": 45,
+    "name": "Graphic Printed Joggers",
+    "slug": "graphic-printed-joggers",
+    "brand": "RRR",
+    "category": "Joggers",
+    "gender": "Men",
+    "price": 1999,
+    "discount": 20,
+    "rating": 4.4,
+    "reviewCount": 234,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Grey", "hex": "#888888"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=600&q=80",
+      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": false, "bestSeller": false,
+    "description": "Graphic side-panel joggers with bold print detailing and elasticated waistband. Streetwear meets comfort.",
+    "tags": ["joggers", "men", "graphic", "streetwear"],
+    "stock": 68,
+    "collection": "streetwear"
+  },
+  {
+    "id": 46,
+    "name": "Off Shoulder Top",
+    "slug": "off-shoulder-top",
+    "brand": "RRR",
+    "category": "T-Shirts",
+    "gender": "Women",
+    "price": 1199,
+    "discount": 20,
+    "rating": 4.7,
+    "reviewCount": 478,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Red", "hex": "#FF0000"},
+      {"name": "Stripe", "hex": "#CCCCCC"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1485518882345-15568b007407?w=600&q=80",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&q=80"
+    ],
+    "featured": false, "newArrival": true, "trending": true, "bestSeller": false,
+    "description": "Flirty off-shoulder top with elasticated neckline and relaxed fit. Perfect for a beach day or brunch date.",
+    "tags": ["off-shoulder", "women", "summer", "trendy"],
+    "stock": 92,
+    "collection": "summer"
+  },
+  {
+    "id": 47,
+    "name": "Tapered Slim Jeans",
+    "slug": "tapered-slim-jeans",
+    "brand": "RRR",
+    "category": "Jeans",
+    "gender": "Men",
+    "price": 2299,
+    "discount": 20,
+    "rating": 4.6,
+    "reviewCount": 389,
+    "sizes": ["28", "30", "32", "34", "36", "38"],
+    "colors": [
+      {"name": "Indigo", "hex": "#4B0082"},
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Light Blue", "hex": "#ADD8E6"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80",
+      "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": false, "bestSeller": true,
+    "description": "Modern tapered slim jeans with slight stretch for comfort. Clean lines and a versatile wash that goes with everything.",
+    "tags": ["jeans", "slim", "men", "denim"],
+    "stock": 78,
+    "collection": "minimal"
+  },
+  {
+    "id": 48,
+    "name": "Ruched Bodycon Dress",
+    "slug": "ruched-bodycon-dress",
+    "brand": "RRR",
+    "category": "Dresses",
+    "gender": "Women",
+    "price": 2199,
+    "discount": 25,
+    "rating": 4.8,
+    "reviewCount": 567,
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": [
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Cobalt Blue", "hex": "#0047AB"},
+      {"name": "Red", "hex": "#FF0000"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=600&q=80",
+      "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": true, "bestSeller": true,
+    "description": "Figure-flattering ruched bodycon dress with a plunging neckline. From dinner dates to club nights.",
+    "tags": ["bodycon", "dress", "women", "party"],
+    "stock": 53,
+    "collection": "party"
+  },
+  {
+    "id": 49,
+    "name": "Aesthetic Bucket Hat",
+    "slug": "aesthetic-bucket-hat",
+    "brand": "RRR",
+    "category": "Accessories",
+    "subcategory": "Caps",
+    "gender": "All",
+    "price": 799,
+    "discount": 10,
+    "rating": 4.5,
+    "reviewCount": 378,
+    "sizes": ["One Size"],
+    "colors": [
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Cream", "hex": "#F5F0E8"},
+      {"name": "Tie-Dye", "hex": "#6A0DAD"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=600&q=80",
+      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=600&q=80"
+    ],
+    "featured": false, "newArrival": true, "trending": true, "bestSeller": false,
+    "description": "Aesthetic bucket hat with embroidered logo and wide brim. The Gen-Z summer essential.",
+    "tags": ["bucket-hat", "accessories", "summer", "unisex"],
+    "stock": 110,
+    "collection": "summer"
+  },
+  {
+    "id": 50,
+    "name": "Satin Shorts",
+    "slug": "satin-shorts",
+    "brand": "RRR",
+    "category": "Jeans",
+    "subcategory": "Shorts",
+    "gender": "Women",
+    "price": 1299,
+    "discount": 15,
+    "rating": 4.6,
+    "reviewCount": 289,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {"name": "Gold Champagne", "hex": "#D4AF37"},
+      {"name": "Black", "hex": "#111111"},
+      {"name": "Dusty Pink", "hex": "#DCB8B0"}
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f43?w=600&q=80",
+      "https://images.unsplash.com/photo-1604176354204-9268737828e4?w=600&q=80"
+    ],
+    "featured": false, "newArrival": false, "trending": true, "bestSeller": false,
+    "description": "Silky satin shorts with elasticated waistband. Luxurious feel for lounging or elevated casual looks.",
+    "tags": ["satin", "shorts", "women", "luxury"],
+    "stock": 67,
+    "collection": "premium"
+  }
+]

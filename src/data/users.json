@@ -1,0 +1,63 @@
+[
+  {
+    "id": "user-1",
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma@email.com",
+    "phone": "+91 98765 43210",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80",
+    "addresses": [
+      {
+        "id": "addr-1",
+        "label": "Home",
+        "name": "Aarav Sharma",
+        "line1": "42 Green Park Extension",
+        "line2": "Near Metro Station",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "pincode": "110016",
+        "isDefault": true
+      },
+      {
+        "id": "addr-2",
+        "label": "Office",
+        "name": "Aarav Sharma",
+        "line1": "Cyber Hub, DLF Cyber City",
+        "city": "Gurugram",
+        "state": "Haryana",
+        "pincode": "122002",
+        "isDefault": false
+      }
+    ],
+    "orders": [
+      {
+        "id": "ORD-2026-8821",
+        "date": "2026-05-28",
+        "status": "Delivered",
+        "items": [
+          { "productId": 1, "name": "Oversized Graphic Tee", "image": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=200&q=80", "size": "L", "color": "Black", "qty": 2, "price": 1499 },
+          { "productId": 6, "name": "Streetwear Hoodie", "image": "https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=200&q=80", "size": "M", "color": "Black", "qty": 1, "price": 2799 }
+        ],
+        "total": 5797
+      },
+      {
+        "id": "ORD-2026-7654",
+        "date": "2026-04-15",
+        "status": "Delivered",
+        "items": [
+          { "productId": 2, "name": "Premium Linen Shirt", "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=200&q=80", "size": "M", "color": "Beige", "qty": 1, "price": 2499 }
+        ],
+        "total": 2499
+      },
+      {
+        "id": "ORD-2026-9123",
+        "date": "2026-06-01",
+        "status": "Shipped",
+        "items": [
+          { "productId": 16, "name": "Bomber Jacket", "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=200&q=80", "size": "L", "color": "Olive", "qty": 1, "price": 4499 },
+          { "productId": 29, "name": "Snapback Cap", "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=200&q=80", "size": "One Size", "color": "Gold", "qty": 1, "price": 899 }
+        ],
+        "total": 5398
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  { "id": "tshirts", "name": "T-Shirts", "slug": "t-shirts", "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&q=80", "gender": "All", "productCount": 240 },
+  { "id": "shirts", "name": "Shirts", "slug": "shirts", "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=400&q=80", "gender": "All", "productCount": 180 },
+  { "id": "oversized", "name": "Oversized", "slug": "oversized", "image": "https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?w=400&q=80", "gender": "Unisex", "productCount": 120 },
+  { "id": "jeans", "name": "Jeans", "slug": "jeans", "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&q=80", "gender": "All", "productCount": 200 },
+  { "id": "joggers", "name": "Joggers", "slug": "joggers", "image": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=400&q=80", "gender": "All", "productCount": 90 },
+  { "id": "hoodies", "name": "Hoodies", "slug": "hoodies", "image": "https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=400&q=80", "gender": "Unisex", "productCount": 110 },
+  { "id": "jackets", "name": "Jackets", "slug": "jackets", "image": "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=400&q=80", "gender": "All", "productCount": 85 },
+  { "id": "accessories", "name": "Accessories", "slug": "accessories", "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&q=80", "gender": "All", "productCount": 160 },
+  { "id": "dresses", "name": "Dresses", "slug": "dresses", "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=400&q=80", "gender": "Women", "productCount": 145 },
+  { "id": "cargo", "name": "Cargo Pants", "slug": "cargo-pants", "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=400&q=80", "gender": "All", "productCount": 75 }
+]

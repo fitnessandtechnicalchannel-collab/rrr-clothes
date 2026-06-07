@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Summer Collection '26",
+    "subtitle": "Fresh styles for the season",
+    "cta": "Shop Summer",
+    "ctaLink": "/collections/summer",
+    "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1600&q=85",
+    "mobileImage": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800&q=85",
+    "badge": "New Season"
+  },
+  {
+    "id": 2,
+    "title": "Streetwear Collection",
+    "subtitle": "Define your street identity",
+    "cta": "Explore Now",
+    "ctaLink": "/collections/streetwear",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=85",
+    "mobileImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=85",
+    "badge": "Trending"
+  },
+  {
+    "id": 3,
+    "title": "Premium Essentials",
+    "subtitle": "Timeless. Refined. Elevated.",
+    "cta": "Shop Premium",
+    "ctaLink": "/collections/premium",
+    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1600&q=85",
+    "mobileImage": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&q=85",
+    "badge": "Exclusive"
+  },
+  {
+    "id": 4,
+    "title": "New Arrival Drop",
+    "subtitle": "First look at the latest drops",
+    "cta": "Shop New Arrivals",
+    "ctaLink": "/collections/new-arrivals",
+    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1600&q=85",
+    "mobileImage": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800&q=85",
+    "badge": "Just Dropped"
+  }
+]
