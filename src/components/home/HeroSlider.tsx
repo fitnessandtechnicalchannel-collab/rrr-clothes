@@ -7,26 +7,38 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const PILLARS = [
   {
-    id: 'rare',
+    id: 'rare' as const,
     title: 'RARE',
     subtitle: 'LIMITED ATELIER PIECES',
-    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1200&q=85', // Woman in yellow streetwear crop top hoodie and sweatpants
+    images: [
+      'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1200&q=85',
+      'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=1200&q=85',
+      'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=1200&q=85',
+    ],
     ctaLink: '/collections/streetwear',
     hasCenterCta: false,
   },
   {
-    id: 'rich',
+    id: 'rich' as const,
     title: 'RICH',
     subtitle: 'ULTRA-PREMIUM FABRICS',
-    image: 'https://images.unsplash.com/photo-1593030103066-0093718efeb9?w=1200&q=85', // Luxury suit closeup adjusting tie
+    images: [
+      'https://images.unsplash.com/photo-1593030103066-0093718efeb9?w=1200&q=85',
+      'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200&q=85',
+      'https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?w=1200&q=85',
+    ],
     ctaLink: '/collections/premium',
-    hasCenterCta: true, // Center R R R logo and Enter Atelier CTA
+    hasCenterCta: true,
   },
   {
-    id: 'right',
+    id: 'right' as const,
     title: 'RIGHT',
     subtitle: 'THE ABSOLUTE FIT',
-    image: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?w=1200&q=85', // Premium sneaker close-up
+    images: [
+      'https://images.unsplash.com/photo-1549298916-b41d501d3772?w=1200&q=85',
+      'https://images.unsplash.com/photo-1539185441755-769473a23570?w=1200&q=85',
+      'https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=1200&q=85',
+    ],
     ctaLink: '/collections',
     hasCenterCta: false,
   },
@@ -35,6 +47,7 @@ const PILLARS = [
 export default function HeroSlider() {
   const [current, setCurrent] = useState(0);
   const [direction, setDirection] = useState(1);
+  const [slideIndices, setSlideIndices] = useState({ rare: 0, rich: 0, right: 0 });
 
   const go = useCallback(
     (index: number) => {
@@ -48,9 +61,30 @@ export default function HeroSlider() {
   const prev = useCallback(() => go((current - 1 + PILLARS.length) % PILLARS.length), [current, go]);
 
   useEffect(() => {
-    const t = setInterval(next, 5000);
+    const t = setInterval(next, 6000);
     return () => clearInterval(t);
   }, [next]);
+
+  // Staggered auto-rotation timers for independent slides to make layout feel incredibly organic and fluid
+  useEffect(() => {
+    const rareTimer = setInterval(() => {
+      setSlideIndices((prev) => ({ ...prev, rare: (prev.rare + 1) % 3 }));
+    }, 4000);
+
+    const richTimer = setInterval(() => {
+      setSlideIndices((prev) => ({ ...prev, rich: (prev.rich + 1) % 3 }));
+    }, 4500);
+
+    const rightTimer = setInterval(() => {
+      setSlideIndices((prev) => ({ ...prev, right: (prev.right + 1) % 3 }));
+    }, 5000);
+
+    return () => {
+      clearInterval(rareTimer);
+      clearInterval(richTimer);
+      clearInterval(rightTimer);
+    };
+  }, []);
 
   const slideVariants = {
     enter: (dir: number) => ({ x: dir > 0 ? '100%' : '-100%', opacity: 0 }),
@@ -59,58 +93,69 @@ export default function HeroSlider() {
   };
 
   return (
-    <div className="w-full bg-[#111] overflow-hidden">
+    <div className="w-full bg-[#111] overflow-hidden relative">
       {/* ================= DESKTOP VIEW (3-Panel Split Hero) ================= */}
       <div className="hidden lg:grid grid-cols-3 w-full h-[75vh] min-h-[520px] max-h-[850px] overflow-hidden relative">
-        {PILLARS.map((pillar) => (
-          <Link
-            key={pillar.id}
-            href={pillar.ctaLink}
-            className="relative group overflow-hidden h-full flex flex-col justify-end p-10 select-none border-r border-black/20 last:border-r-0"
-          >
-            {/* Background Image with Zoom on Hover */}
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={pillar.image}
-              alt={pillar.title}
-              className="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] cubic-bezier(0.25, 0.46, 0.45, 0.94) group-hover:scale-105"
-              style={{ filter: 'brightness(0.65)' }}
-            />
-
-            {/* Dark/Dim Overlay */}
-            <div className="absolute inset-0 bg-black/15 transition-opacity duration-500 group-hover:bg-black/5" />
-
-            {/* Bottom Gradient for Text Contrast */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/10 to-transparent pointer-events-none" />
-
-            {/* Center RRR + ENTER ATELIER (for Rich panel) */}
-            {pillar.hasCenterCta && (
-              <div className="absolute inset-0 flex flex-col items-center justify-center z-10 p-6">
-                <motion.h2
-                  initial={{ opacity: 0, y: 15 }}
-                  animate={{ opacity: 0.95, y: 0 }}
-                  transition={{ duration: 0.8 }}
-                  className="font-serif text-5xl font-medium text-white tracking-[0.3em] mb-6 select-none"
-                >
-                  R R R
-                </motion.h2>
-                <span className="inline-block border border-[var(--gold)] text-white text-xs font-semibold tracking-[0.25em] px-8 py-3 uppercase transition-all duration-300 hover:bg-[var(--gold)] hover:text-black">
-                  ENTER ATELIER
-                </span>
+        {PILLARS.map((pillar) => {
+          const activeImg = pillar.images[slideIndices[pillar.id]];
+          return (
+            <Link
+              key={pillar.id}
+              href={pillar.ctaLink}
+              className="relative group overflow-hidden h-full flex flex-col justify-end p-10 select-none border-r border-black/20 last:border-r-0"
+            >
+              {/* Background Image Slideshow Container with Crossfade */}
+              <div className="absolute inset-0 w-full h-full overflow-hidden">
+                <AnimatePresence mode="popLayout">
+                  <motion.img
+                    key={activeImg}
+                    src={activeImg}
+                    alt={pillar.title}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 1.2, ease: 'easeInOut' }}
+                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] group-hover:scale-105"
+                    style={{ filter: 'brightness(0.65)' }}
+                  />
+                </AnimatePresence>
               </div>
-            )}
 
-            {/* Bottom Panel Text */}
-            <div className="relative z-10 text-center w-full flex flex-col items-center gap-1">
-              <h3 className="font-serif text-4xl font-normal text-white tracking-[0.2em] leading-none mb-1">
-                {pillar.title}
-              </h3>
-              <p className="text-[10px] tracking-[0.3em] font-semibold text-[var(--gold-soft)] uppercase">
-                {pillar.subtitle}
-              </p>
-            </div>
-          </Link>
-        ))}
+              {/* Dark/Dim Overlay */}
+              <div className="absolute inset-0 bg-black/15 transition-opacity duration-500 group-hover:bg-black/5 z-[5]" />
+
+              {/* Bottom Gradient for Text Contrast */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/10 to-transparent pointer-events-none z-[6]" />
+
+              {/* Center RRR + ENTER ATELIER (for Rich panel) */}
+              {pillar.hasCenterCta && (
+                <div className="absolute inset-0 flex flex-col items-center justify-center z-10 p-6">
+                  <motion.h2
+                    initial={{ opacity: 0, y: 15 }}
+                    animate={{ opacity: 0.95, y: 0 }}
+                    transition={{ duration: 0.8 }}
+                    className="font-serif text-5xl font-medium text-white tracking-[0.3em] mb-6 select-none"
+                  >
+                    R R R
+                  </motion.h2>
+                  <span className="inline-block border border-[var(--gold)] text-white text-xs font-semibold tracking-[0.25em] px-8 py-3 uppercase transition-all duration-300 hover:bg-[var(--gold)] hover:text-black">
+                    ENTER ATELIER
+                  </span>
+                </div>
+              )}
+
+              {/* Bottom Panel Text */}
+              <div className="relative z-10 text-center w-full flex flex-col items-center gap-1">
+                <h3 className="font-serif text-4xl font-normal text-white tracking-[0.2em] leading-none mb-1">
+                  {pillar.title}
+                </h3>
+                <p className="text-[10px] tracking-[0.3em] font-semibold text-[var(--gold-soft)] uppercase">
+                  {pillar.subtitle}
+                </p>
+              </div>
+            </Link>
+          );
+        })}
       </div>
 
       {/* ================= MOBILE VIEW (Single-Slide Carousel) ================= */}
@@ -126,11 +171,10 @@ export default function HeroSlider() {
             transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
             className="absolute inset-0"
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={PILLARS[current].image}
+              src={PILLARS[current].images[slideIndices[PILLARS[current].id]]}
               alt={PILLARS[current].title}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover animate-fade-in"
               style={{ filter: 'brightness(0.6)' }}
             />
 
@@ -144,9 +188,7 @@ export default function HeroSlider() {
                   <h2 className="font-serif text-4xl font-semibold text-white tracking-[0.25em] mb-4">R R R</h2>
                 </div>
               )}
-              <h1
-                className="font-serif text-4xl font-normal text-white tracking-[0.2em] mb-2"
-              >
+              <h1 className="font-serif text-4xl font-normal text-white tracking-[0.2em] mb-2">
                 {PILLARS[current].title}
               </h1>
               <p

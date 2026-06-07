@@ -9,6 +9,7 @@ import MobileBottomNav from '@/components/layout/MobileBottomNav';
 import CartDrawer from '@/components/shared/CartDrawer';
 import SearchOverlay from '@/components/shared/SearchOverlay';
 import ToastContainer from '@/components/shared/ToastContainer';
+import SparklesWrapper from '@/components/shared/SparklesWrapper';
 
 const outfit = Outfit({
   subsets: ['latin'],
@@ -69,6 +70,7 @@ export default function RootLayout({
         <SearchOverlay />
         <CartDrawer />
         <ToastContainer />
+        <SparklesWrapper />
 
         {/* Page content — top offset = sticky header only */}
         <main
